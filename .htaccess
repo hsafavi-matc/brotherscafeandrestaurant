@@ -1,3 +1,10 @@
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ index.php [QSA,L]
+# Redirect visitors to the HTTPS version of your website:
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Prevent hotlinking:
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?brotherscafeandrestaurant.com [NC]
+RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]
