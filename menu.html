@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Restoran - Bootstrap Restaurant Template</title>
+    <title>Our Menu</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="Somali restaurant, Madison WI restaurant, authentic Somali cuisine, Brothers Cafe & Restaurant" name="keywords">
+    <meta content="Experience authentic Somali cuisine at Brothers Cafe & Restaurant located on the west side of Madison, WI. Discover our diverse menu and enjoy a warm, welcoming dining experience." name="description">
+    
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -37,7 +38,7 @@
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
+                <span class="sr-only">Cooking a delicous meal...</span>
             </div>
         </div>
         <!-- Spinner End -->
@@ -47,7 +48,7 @@
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Restoran</h1>
+                    <h1 class="text-primary m-0"><img src="img/favicon.png" alt="Icon" class="me-3">Brothers Cafe & Restaurant</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -55,21 +56,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Service</a>
-                        <a href="menu.html" class="nav-item nav-link active">Menu</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="booking.html" class="dropdown-item">Booking</a>
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            </div>
-                        </div>
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About Us</a>
+                        <a href="menu.html" class="nav-item nav-link">Our Menu</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    </div>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
-                    <a href="" class="btn btn-primary py-2 px-4">Book A Table</a>
+                    <a href="tel:+16084672536" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">608-467-2536</a>
                 </div>
             </nav>
 
@@ -79,7 +73,6 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
                             <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
                             <li class="breadcrumb-item text-white active" aria-current="page">Menu</li>
                         </ol>
                     </nav>
@@ -102,7 +95,7 @@
                             <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
                                 <i class="fa fa-coffee fa-2x text-primary"></i>
                                 <div class="ps-3">
-                                    <small class="text-body">Popular</small>
+                                    <small class="text-body">Our</small>
                                     <h6 class="mt-n1 mb-0">Breakfast</h6>
                                 </div>
                             </a>
@@ -111,8 +104,8 @@
                             <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
                                 <i class="fa fa-hamburger fa-2x text-primary"></i>
                                 <div class="ps-3">
-                                    <small class="text-body">Special</small>
-                                    <h6 class="mt-n1 mb-0">Launch</h6>
+                                    <small class="text-body">Our</small>
+                                    <h6 class="mt-n1 mb-0">Lunch</h6>
                                 </div>
                             </a>
                         </li>
@@ -120,7 +113,7 @@
                             <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
                                 <i class="fa fa-utensils fa-2x text-primary"></i>
                                 <div class="ps-3">
-                                    <small class="text-body">Lovely</small>
+                                    <small class="text-body">Our</small>
                                     <h6 class="mt-n1 mb-0">Dinner</h6>
                                 </div>
                             </a>
@@ -129,302 +122,615 @@
                     <div class="tab-content">
                         <div id="tab-1" class="tab-pane fade show p-0 active">
                             <div class="row g-4">
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Anjeero</span>
+                                                <span class="text-primary">$5.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">3 pieces of Somali Canjera served with Hot Sweet Tea and Olive/Sesame Oil.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Chapati w/ Maharago</span>
+                                                <span class="text-primary">$7.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Chopped Chapati/Bread cooked with Veggies.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Anjeero w/ Otkac</span>
+                                                <span class="text-primary">$12.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">3 pieces of Somali Canjera served with Hot Sweet Tea and Olive/Sesame Oil.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Isbeeso Meal</span>
+                                                <span class="text-primary">$19.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Chopped Goat Meat cooked with Vegetables and 3 Malawah or 3 Anjerro and Tea.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Anjeero Suqar w/ Chicken</span>
+                                                <span class="text-primary">$12.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">3 Pieces of Somali Canjera Served with Hot Sweet Tea and Olive/Sesame Oil.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Chicken Suqaar</span>
+                                                <span class="text-primary">$12.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Strips of Seasoned Chicken served with Mixed Veggies and 2-3 Pieces of Canjera.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Anjeero w/ Beef Liver</span>
+                                                <span class="text-primary">$12.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">3 Pieces of Somali Canjera served with Hot Sweet Tea and Olive/Sesame Oil.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Beef Suqaar</span>
+                                                <span class="text-primary">$12.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Strips of Seasoned Beef served with Mixed Veggies and 2-3 Pieces of Canjera.</small>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chapati w/ Chicken</span>
+                                                <span class="text-primary">$12.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Cut Chapati/Bread cooked with Chicken Cubes and Vegetables.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Sambusa</span>
+                                                <span class="text-primary">$2.00</span>
+                                            </h5>
+                                            <small class="fst-italic">Triangle shaped Puff Pastry filled with your choice of Beef or Fish.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chapati w/ Beef</span>
+                                                <span class="text-primary">$12.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Cut Chapati/Bread cooked with Chicken Cubes and Vegetables.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Buur</span>
+                                                <span class="text-primary">$1.50</span>
+                                            </h5>
+                                            <small class="fst-italic">Donut shaped Sweet Spongy Bread.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Goat Liver</span>
+                                                <span class="text-primary">$11.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Anjeero/Malawah/Japaati/Rooti</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Goat Kidney</span>
+                                                <span class="text-primary">$11.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Anjeero/Malawah/Japaati/Rooti</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Beebeshe and Spinach</span>
+                                                <span class="text-primary">$11.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Anjeero/Malawah/Japaati/Rooti</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Somali Tea or Coffee</span>
+                                                <span class="text-primary">$1.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Your choice or Somali Tea or Coffee.</small>
+                                        </div>
+                                    </div>
+                                </div>  
                             </div>
                         </div>
                         <div id="tab-2" class="tab-pane fade show p-0">
                             <div class="row g-4">
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Rice w/ Chicken</span>
+                                                <span class="text-primary">$14.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">A delicious combination of rice, chicken, veggies and a banana.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Rice w/ Beef or Lamb</span>
+                                                <span class="text-primary">$14.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">A delicious combination of rice, beef or lamb, veggies and a banana.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Chicken Suqar w/ Rice or Pasta</span>
+                                                <span class="text-primary">$14.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Chopped cubed chicken grilled with onions and green peppers served with rice or pasta.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Beef Suqar w/ Rice or Pasta</span>
+                                                <span class="text-primary">$14.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Diced beef grilled with onions and green peppers served with rice or pasta.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Gyro Sandwich</span>
+                                                <span class="text-primary">$9.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">A sandwich that has lamb, beef, or chicken, in pita bread, topped with lettuce, tomatoes, onions, and tzatziki sauce.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Salmon/Fish w/ Rice</span>
+                                                <span class="text-primary">$14.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">A delicious combination of rice, salmon, and a banana.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Pasta w/ Chicken</span>
+                                                <span class="text-primary">$14.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">A delicious combination of pasta, beef or lamb, veggies, and a banana.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Beef Steak w/ Rice or Pasta</span>
+                                                <span class="text-primary">$14.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Beef Steak rich in flavor served with your choice of rice or pasta.</small>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pasta w/ Beef or Lamb</span>
+                                                <span class="text-primary">$14.99</span>
+                                            </h5>
+                                            <small class="fst-italic">A delicious combination of pasta, beef or lamb, veggies, and a banana.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Sambusa</span>
+                                                <span class="text-primary">$2.00</span>
+                                            </h5>
+                                            <small class="fst-italic">Triangle shaped puff pastry filled with your choice of beef or fish.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>French Fries</span>
+                                                <span class="text-primary">$2.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Add this to your meals to get an extraordinary combination!</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Buur</span>
+                                                <span class="text-primary">$1.50</span>
+                                            </h5>
+                                            <small class="fst-italic">Donut shaped sweet spongy bread.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Waslad Lamb</span>
+                                                <span class="text-primary">$22.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Lamb with your choice of Rice or Pasta.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Legs</span>
+                                                <span class="text-primary">$14.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Chicken drumsticks with your choice of Rice or Pasta.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Barbecue Chicken</span>
+                                                <span class="text-primary">$14.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Barbecue Chicken with your choice of Rice or Pasta.</small>
+                                        </div>
+                                    </div>
+                                </div> 
                             </div>
                         </div>
                         <div id="tab-3" class="tab-pane fade show p-0">
                             <div class="row g-4">
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Weedeni w/ Corn</span>
+                                                <span class="text-primary">$7.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Cooked Beans and Corn served in a bowl with a light drizzle of Olive Oil.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Federation Chicken Combo</span>
+                                                <span class="text-primary">$16.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">A Combination Platter of Rice and Pasta with Veggies.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Ambulo w/ Rice</span>
+                                                <span class="text-primary">$7.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Cooked Beans and Rice served in a bowl with a light drizzle of Olive Oil.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Goat Meat w/ Rice</span>
+                                                <span class="text-primary">$19.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Chopped Chapati/Bread cooked with Chicken Cubes and Vegetables.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Kay kay (Chapati) Chicken</span>
+                                                <span class="text-primary">$14.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Chopped Chapati/Bread cooked with Chicken Cubes and Vegetables.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Kay kay (Chapati) Beef</span>
+                                                <span class="text-primary">$14.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Chopped Chapati/Bread cooked with Beef and Vegetables.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Kay kay (Chapati) Veggies</span>
+                                                <span class="text-primary">$11.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Chopped Chapati/Bread cooked with Vegetables.</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-1_5">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Malawah</span>
+                                                <span class="text-primary">$1.99</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Chopped Chapati/Bread cooked with Chicken Cubes and Vegetables.</small>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Veggie Bariis (Rice)</span>
+                                                <span class="text-primary">$7.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Flavorful Lentils/Beans served with Veggies. 2-3 Pieces of Anjera or Malawah or 1 Piece of Chapati.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Veggie Pasta</span>
+                                                <span class="text-primary">$7.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Delicious flavorful Pasta served with Veggies. 2-3 Pieces of Anjera or Malawah or 1 Piece of Chapati.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Quesadilla Combo</span>
+                                                <span class="text-primary">$9.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Quesadilla with Cheese Fries or Regular Fries.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Gyro Sandwiches Combo</span>
+                                                <span class="text-primary">$9.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Gyro Sandwich with Fries.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Philly Sandwiches</span>
+                                                <span class="text-primary">$11.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Philly Sandwich with Fries.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Fish Sandwich</span>
+                                                <span class="text-primary">$11.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Fish Sandwich with Fries.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Sandwich</span>
+                                                <span class="text-primary">$11.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Chicken Sandwich with Fries.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Maharago</span>
+                                                <span class="text-primary">$9.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Anjeero/Malawah/Japaati/Rooti</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Canbuulo</span>
+                                                <span class="text-primary">$7.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Canbuulo with Sugar and Sesame Oil.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ambulo w/ Corn</span>
+                                                <span class="text-primary">$15.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Cooked Beans and Corn served in a bowl with a light drizzle of Olive Oil.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1_5">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ambulo w/ Rice</span>
+                                                <span class="text-primary">$11.99</span>
+                                            </h5>
+                                            <small class="fst-italic">Cooked Beans and Rice served in a bowl with a light drizzle of Olive Oil.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                                                      
                             </div>
                         </div>
                     </div>
@@ -442,15 +748,21 @@
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
                         <a class="btn btn-link" href="">About Us</a>
                         <a class="btn btn-link" href="">Contact Us</a>
-                        <a class="btn btn-link" href="">Reservation</a>
                         <a class="btn btn-link" href="">Privacy Policy</a>
                         <a class="btn btn-link" href="">Terms & Condition</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>
+                            <a href="https://www.google.com/maps/search/?api=1&query=749+S+Gammon+Rd,+Madison,+WI+53711" target="_blank">
+                                749 S Gammon Rd, Madison, WI 53711
+                            </a>
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>
+                            <a href="tel:+16084672536">(608) 467-2536</a>
+                        </p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -460,36 +772,31 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
-                        <h5 class="text-light fw-normal">Monday - Saturday</h5>
-                        <p>09AM - 09PM</p>
-                        <h5 class="text-light fw-normal">Sunday</h5>
-                        <p>10AM - 08PM</p>
-                    </div>
+                        <h5 class="text-light fw-normal">Monday - Sunday</h5>
+                        <p>8 AM - 8 PM</p>
+                        <h5 class="text-light fw-normal">Friday</h5>
+                        <p>8 AM - 12:30 PM<br>1:30 PM - 8:00 PM</p>
+                    </div>                    
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
-                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                        <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                        </div>
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Special Offers</h4>
+                        <p>Check out our latest discounts and promotions available for a limited time!</p>
+                        <a href="/menu.html" class="btn btn-primary py-2">View Offers</a>
                     </div>
+                    
                 </div>
             </div>
             <div class="container">
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
+                            &copy; <a class="border-bottom" href="#">HTMLCodex</a>, All Right Reserved. 
 							
 							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+							Designed By <a class="border-bottom" href="https://htmlcodex.com">1stStepSEO</a>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
                                 <a href="">Home</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
                             </div>
                         </div>
                     </div>
