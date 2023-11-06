@@ -11,10 +11,8 @@
     };
     spinner();
     
-    
     // Initiate the wowjs
     new WOW().init();
-
 
     // Sticky Navbar
     $(window).scroll(function () {
@@ -24,8 +22,7 @@
             $('.navbar').removeClass('sticky-top shadow-sm');
         }
     });
-    
-    
+
     // Dropdown on mouse hover
     const $dropdown = $(".dropdown");
     const $dropdownToggle = $(".dropdown-toggle");
@@ -52,8 +49,7 @@
             $dropdown.off("mouseenter mouseleave");
         }
     });
-    
-    
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
@@ -67,13 +63,11 @@
         return false;
     });
 
-
     // Facts counter
     $('[data-toggle="counter-up"]').counterUp({
         delay: 10,
         time: 2000
     });
-
 
     // Modal Video
     $(document).ready(function () {
@@ -91,7 +85,6 @@
             $("#video").attr('src', $videoSrc);
         })
     });
-
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
@@ -114,6 +107,24 @@
             }
         }
     });
-    
-})(jQuery);
+    // JavaScript code to handle the button click
+    document.getElementById('view-offers-button').addEventListener('click', function() {
+        // Redirect to the menu page and use JavaScript to trigger tab and scrolling
+        window.location.href = 'menu.html';
+    });
 
+    // On the menu.html page
+    if (window.location.pathname.endsWith('menu.html')) {
+        document.addEventListener('DOMContentLoaded', function() {
+            // Activate the "Lunch" tab (assuming it has an href of "#tab-2")
+            document.querySelector('[href="#tab-2"]').click();
+
+            // Scroll to the "special" item and position it at the top of the viewport
+            var specialElement = document.getElementById('special');
+            if (specialElement) {
+                specialElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+    }
+
+    })(jQuery); // Added the closing parenthesis for the self-invoking function
