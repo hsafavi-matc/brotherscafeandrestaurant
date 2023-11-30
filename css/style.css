@@ -510,12 +510,3 @@
     padding-top: 0; /* Ensure there is no top padding */
 }
 
-.navbar-brand h1 {
-    max-width: 100%;
-    text-align: center;
-}
-
-.navbar-brand h1 img {
-    max-width: 100%;
-    height: auto;
-}
